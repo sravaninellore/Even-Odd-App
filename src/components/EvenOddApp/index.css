@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.even-odd-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.count-display {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+
+.message-display {
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.increment-button {
+  padding: 10px 20px;
+  background-color: #ff6e7f;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.increment-button:hover {
+  background-color: #bfe9ff;
+  color: #0f172a;
+}
